@@ -32,4 +32,5 @@ void main()
     pthread_join(tid2,NULL);
     pthread_join(tid,NULL);
 
+    sem_destroy(&sid);
 }
